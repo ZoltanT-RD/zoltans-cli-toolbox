@@ -1,3 +1,5 @@
 import { inspect } from './functions/inspect';
 import { debug } from './functions/debug';
-export { inspect, debug };
+import { msg } from './functions/msg';
+
+export { inspect, debug, msg };

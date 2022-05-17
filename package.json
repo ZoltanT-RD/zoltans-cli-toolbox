@@ -1,6 +1,6 @@
 {
   "name": "zoltans-cli-toolbox",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Zoltan's CLI Toolbox",
   "main": "main.js",
   "scripts": {
