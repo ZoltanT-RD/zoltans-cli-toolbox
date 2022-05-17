@@ -1,6 +1,6 @@
 {
   "name": "zoltans-cli-toolbox",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Zoltan's CLI Toolbox",
   "main": "main.js",
   "scripts": {
@@ -13,6 +13,9 @@
     "type": "git",
     "url": "git+https://github.com/ZoltanTompa-ResDiary/zoltans-cli-toolbox.git"
   },
+  "files": [
+    "dist/"
+  ],
   "engines": {
     "node": ">=12"
   },
