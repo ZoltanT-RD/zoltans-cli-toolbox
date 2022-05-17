@@ -8,6 +8,8 @@ on:
 jobs:
   publish:
     runs-on: ubuntu-latest
+    permissions:
+      issues: write 
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
@@ -15,7 +17,18 @@ jobs:
           node-version: 16
       - run: npm ci
       - run: npm run build
-      - run: sh tagRelease.sh
-      - uses: JS-DevTools/npm-publish@v1
+      
+      #- uses: jarrettmeyer/github-action-package-values@v1 > pkgValues.log
+      
+      #pkgValues.log.package_version
+      
+      #- uses: hole19/git-tag-action@master
+      #  env:
+      #    TAG: pkgValues.log.package_version
+       #   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}      
+      
+      - run: sh tagRelease.sh #Tag current release
+      - uses: EndBug/latest-tag@v1.4.0 #Automatically generate & update a 'latest' tag for your releases
+      - uses: JS-DevTools/npm-publish@v1 #Publish to NPM
         with:
           token: ${{ secrets.NPM_TOKEN }}
