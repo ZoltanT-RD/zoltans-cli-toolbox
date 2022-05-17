@@ -1,2 +1,3 @@
 import { inspect } from './functions/inspect';
-export { inspect };
+import { debug } from './functions/debug';
+export { inspect, debug };
