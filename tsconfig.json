@@ -4,6 +4,7 @@
     "esModuleInterop": true,
     "removeComments": true,
     "preserveConstEnums": true,
+    "declaration": true,
     "outDir": "dist"
   },
   "include": ["src/**/*"],
