@@ -1,0 +1,13 @@
+{
+    "recommendations": [
+      "dbaeumer.vscode-eslint",
+      "esbenp.prettier-vscode",
+      "visualstudioexptteam.vscodeintellicode",
+      "ms-vsliveshare.vsliveshare-pack",
+      "editorconfig.editorconfig",
+      "webben.browserslist",
+      "ionutvmi.path-autocomplete",
+      "styled-components.vscode-styled-components",
+      "Gruntfuggly.todo-tree"
+    ]
+}
