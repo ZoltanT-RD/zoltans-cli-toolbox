@@ -7,5 +7,5 @@ Zoltan's CLI Toolbox
 
 ## dev setup
 
-- use volta.sh for env management
-- use pnpm for package management
+- use `volta.sh` for env management (https://docs.volta.sh/guide/understanding)
+- use `pnpm` for package management (https://pnpm.io/pnpm-cli)
