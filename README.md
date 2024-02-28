@@ -17,9 +17,9 @@ state <br/>
 [![Node.js CI](https://github.com/ZoltanTompa-ResDiary/zoltans-cli-toolbox/actions/workflows/node.js.yml/badge.svg?branch=master)](https://github.com/ZoltanTompa-ResDiary/zoltans-cli-toolbox/actions/workflows/node.js.yml)
 <img src="https://img.shields.io/npm/dt/volta?logo=npm&logoColor=red&color=red"/>
 
+<hr />
 
-
-# Zoltan's CLI Toolbox
+# 🧰 Zoltan's CLI Toolbox 🧰
 
 <p>
 A collections of tools <i>(exported both separately and as a global)</i> to help every-day node.js CLI development.
