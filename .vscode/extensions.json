@@ -5,9 +5,16 @@
       "visualstudioexptteam.vscodeintellicode",
       "ms-vsliveshare.vsliveshare-pack",
       "editorconfig.editorconfig",
-      "webben.browserslist",
       "ionutvmi.path-autocomplete",
-      "styled-components.vscode-styled-components",
-      "Gruntfuggly.todo-tree"
+      "gruntfuggly.todo-tree",
+      "streetsidesoftware.code-spell-checker",
+      "mikestead.dotenv",
+      "spmeesseman.vscode-taskexplorer",
+      "formulahendry.auto-rename-tag",
+      "waderyan.gitblame",
+      "arturock.gitstash",
+      "pkief.material-icon-theme",
+      "unifiedjs.vscode-mdx",
+      "yoavbls.pretty-ts-errors",
     ]
 }
